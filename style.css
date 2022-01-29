@@ -22,7 +22,7 @@ header {
 .intro1,
 .intro2 {
   text-align: center;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 .intro1 {
@@ -44,7 +44,6 @@ h2 {
 p {
   font-size: 1rem;
   margin-bottom: 1.5rem;
-  font-weight: 500;
   color: hsl(204, 2%, 46%);
 }
 
@@ -91,24 +90,27 @@ button {
 
 .features div {
   margin-bottom: 2rem;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro3,
 .intro4 {
   text-align: center;
   margin: 3.6rem 0;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 .image-devices {
   display: block;
   margin: 0 auto;
   width: 100%;
+  padding:0 2rem;
 }
 
 .options {
   text-align: center;
-  padding: 0 1.5rem;
 }
 
 .options h3 {
@@ -124,6 +126,9 @@ button {
 
 .options div {
   margin-bottom: 2.5rem;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .companies {
@@ -145,7 +150,7 @@ button {
   margin-bottom: 2.5rem;
 }
 
-footer {
+.main-footer {
   background-color: hsl(210, 8%, 95%);
   text-align: center;
   padding: 3rem 0;
@@ -156,7 +161,7 @@ footer {
   margin-bottom: 2rem;
 }
 
-footer ul {
+.main-footer ul {
   list-style: none;
   margin-bottom: 2rem;
 }
@@ -238,11 +243,21 @@ footer ul {
 
   .options {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    vertical-align: middle;
-    column-gap: 2rem;
-    align-content: center;
+    grid-template-columns: repeat(3,1fr);
+    margin: 3rem 1.5rem;
+    column-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .options div {
+    margin:0;
+    padding:1rem;
+  }
+
+  .options p {
+    font-size: 0.9rem;
+    margin:0;
   }
 
   .companies {
@@ -257,7 +272,7 @@ footer ul {
     width: 65%;
     margin: 0;
   }
-  footer {
+  .main-footer {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
